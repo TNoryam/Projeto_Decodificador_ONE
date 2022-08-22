@@ -1,0 +1,119 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #edf0f8;
+}
+
+
+.inputs{
+    background-color: #edf0f8;
+    border-radius: 10px;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.secInput{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: auto 0px auto 70px
+}
+
+textarea{
+    display: inline;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 28pt;
+}
+
+#textoDigitado{
+    width: 600px;
+    height: 380px;;
+    background-color: #edf0f8;
+    color:#0A3871;
+}
+
+.alerta{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.alerta p{
+    display:inline;
+}
+
+.exclamacao{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.divButtons{
+    display: inline-block;
+}
+
+.buttons{
+    width: 270px;
+    height: 70px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 35px;
+    border: 1px solid #0A3871;
+    font-size: 16pt;
+    letter-spacing: 1pt;
+    text-align: center;
+
+}
+
+#btn-cripto{
+    background-color: #0A3871;
+    color: #fff;
+    margin-right: 10px;
+}
+
+#btn-descripto{
+    margin-left: 10px;
+}
+
+.secOutput{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 70px auto 0px;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#textoSaida{
+    padding: 10px;
+    height: 413px;
+    width: 330px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+}
+
+.icon_twitter{
+    width: 42px;
+    height: 42px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Decodificador Alura | Challenge 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <div class="inputs">    
+        <section class="secInput">
+            <textarea id="textoDigitado" cols="30" rows="10" placeholder="Digite seu texto!"></textarea>
+            <br><br>
+            <div class="alerta">
+                <img class="exclamacao" src="icone.png" >
+                <p>só serão criptografadas letras minúsculas e sem acentuação!</p>
+            </div>
+            <div class="divButtons">
+                <button class="buttons" id="btn-cripto" onclick="criptografar()">Criptografar</button>
+                <button class="buttons" id="btn-descripto" onclick="descriptografar()" >Descriptografar</button>
+            </div>
+        </section>
+        <section class="secOutput">
+            <textarea readonly name="textOutput" id="textoSaida" cols="30" rows="10" placeholder="Nenhuma mensagem a ser codificada"></textarea>
+            <button class="buttons" id="btn-copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </div>
+    <footer>
+        <p>Redes Sociais</p>
+        <div class="icones">
+            <a target="_blank" href="https://github.com/TNoryam"><img src="GitHub-Mark-32px.png"></a>
+            <a target="_blank" href="https://twitter.com/thenoryam"><img class="icon_twitter" src="twitter_icon.png"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
